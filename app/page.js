@@ -15,8 +15,13 @@ export default function HomePage() {
         {/* Hero3D Model Container with floating animation */}
         <motion.div
           className="relative z-10 w-full max-w-2xl h-80 sm:h-96 md:h-[28rem] lg:h-[32rem] mb-8"
-          animate={{ y: [0, -10, 0] }}   // float up and down
-          transition={{ duration: 4, repeat: Infinity, repeatType: "loop", ease: "easeInOut" }}
+          animate={{ y: [0, -10, 0] }} // float up and down
+          transition={{
+            duration: 4,
+            repeat: Infinity,
+            repeatType: "loop",
+            ease: "easeInOut",
+          }}
         >
           <Hero3D />
         </motion.div>
