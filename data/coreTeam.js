@@ -29,7 +29,7 @@ export const coreTeam = [
     name: "Mudit Tyagi",
     role: "Student Vice Chairman",
     bio: bio,
-    photo: "/core/mudit.jpeg",
+    photo: "/core/mudit.png",
     socials: {
       github: "https://github.com/venomlive",
       linkedin: "https://www.linkedin.com/in/mudit-tyagi11/",
@@ -73,7 +73,7 @@ export const coreTeam = [
     name: "Rishab Madhwal",
     role: "Tech Head",
     bio: "Backend-first Dev, AI Agentic Enthusiast",
-    photo: "/core/andro.png",
+    photo: "/core/rishabh.jpg",
     socials: {
       github: "https://github.com/androkingdom",
       twitter: "https://x.com/RishabhMadh",
