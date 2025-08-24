@@ -2,13 +2,12 @@ import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
-import { motion } from "framer-motion";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className="bg-background text-foreground antialiased">
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <div className="min-h-screen flex flex-col items-center gap-8 sm:gap-8 lg:gap-10 p-3 sm:p-3 lg:p-5">
             {/* Navbar Slab */}
             <header className="w-full max-w-3xl panel p-3 sm:p-3 lg:p-5">
