@@ -63,7 +63,7 @@ export const coreTeam = [
     name: "Raghav Sharma",
     role: "Innovation Director",
     bio: bio,
-    photo,
+    photo: "/core/raghav.png",
     socials: {
       github: "https://github.com/RaghavSharma-3",
     },
