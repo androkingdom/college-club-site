@@ -41,7 +41,7 @@ export const coreTeam = [
     name: "Anshu Kumari",
     role: "General Secretary",
     bio: "Handles the tech workshops and coding sprints.",
-    photo: "/core/anshu.jpeg",
+    photo: "/core/anshu.jpg",
     socials: {
       github: "https://github.com/anshu-codes",
       linkedin: "https://www.linkedin.com/in/anshu-kumari-70655b278",
